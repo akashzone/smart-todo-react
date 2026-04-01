@@ -1,16 +1,21 @@
-# React + Vite
+A smart and interactive Todo application built using React that goes beyond basic task management. This app allows users to efficiently create, edit, delete, and organize tasks with a focus on usability and performance.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It includes advanced features such as task filtering (All, Completed, Pending), localStorage persistence to retain data across sessions, and keyboard shortcuts for faster input handling. The application demonstrates core React concepts like state management, component-based architecture, and event handling.
 
-Currently, two official plugins are available:
+Upcoming Features : 
+Add, edit, and delete tasks
+Mark tasks as completed or pending
+Filter tasks (All / Completed / Pending)
+Data persistence using localStorage
+Keyboard shortcut support (e.g., Enter to add tasks)
+Clean and responsive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+Tech Stack : 
+React.js
+JavaScript (ES6+)
+HTML5 & CSS3
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I'm building this projects to improve my foundation in React.js
+I won't use AI even for styling purpose, just to test how much I can do even if I don't have AI
+Testing my capability.
