@@ -2,15 +2,15 @@
 
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
-
+import TodoList from "./components/TodoList"
 function App() {
+
   return (
     <>
       <Navbar />
-      <main>
-          {/* <TodoList /> */}
-      </main>
-      <Footer/>
+      <TodoList />
+      <Footer />
+
     </>
   )
 }

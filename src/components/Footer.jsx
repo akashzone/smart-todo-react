@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className='footer'>
-            Copyright &copy; 2023 Smart Todo. All rights reserved.
+            Copyright &copy; 2026 Smart Todo. All rights reserved.
         </div>
     )
 }

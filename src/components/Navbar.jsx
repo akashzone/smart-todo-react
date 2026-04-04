@@ -1,10 +1,16 @@
 
-import {useState} from "react"
+import {useEffect, useState} from "react"
 
 import './Navbar.css'
 const Navbar = () => {
-    const [toggle, setToggle] = useState(false)
+    const [toggle, setToggle] = useState(false);
 
+    // useEffect(()=>{
+    //     alert("This is a demo project. We are working on it.")
+    // },[]);
+    // useEffect(()=>{
+    //     alert("This is a demo project. The dark mode toggle is not functional yet.")
+    // },[toggle]);
     return <>
     <nav className="navbar">
         <div className="navTitle">

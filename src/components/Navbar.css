@@ -13,6 +13,7 @@ nav .navTitle{
   font-size: 1.5rem;
   font-weight: 900;
   padding: 20px;
+  cursor: pointer;
 }
 
 nav .navTitle span{
