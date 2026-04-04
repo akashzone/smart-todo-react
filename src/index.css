@@ -5,15 +5,3 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
-.nav-title{
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: white;
-  background-color: #141313;
-  padding: 20px;
-}
-
-.nav-title span{
-  color: #aeaeae;
-}

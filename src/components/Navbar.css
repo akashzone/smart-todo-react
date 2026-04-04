@@ -1,0 +1,34 @@
+
+.navbar{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: rgb(255, 255, 255);
+  background-color: #353232;
+}
+
+nav .navTitle{
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 20px;
+}
+
+nav .navTitle span{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .toggleBtn{
+    padding: 10px 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px ;
+}
+
+nav .toggleBtn:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
