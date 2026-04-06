@@ -74,7 +74,7 @@ const TodoList = ({ toggle }) => {
                     {todos.map((todo) => (
 
                         <li style={{ backgroundColor: toggle ? "#ffffff" : "#2a2a2a", color: toggle ? "#000" : "#e0e0e0" }} key={todo.id}>
-                            <input type="checkbox" checked={todo.completed} onChange={()=>{handleCheckBox(todo.id)}}/>
+                            <input id='checkbox' style={{ accentColor:  toggle ? "#3b82f6" : "#60a5fa"}} type="checkbox" checked={todo.completed} onChange={()=>{handleCheckBox(todo.id)}}/>
                             <span style={{ textDecoration: todo.completed ? "line-through" : "none",color: toggle ? "#000" : "#e0e0e0" }}>{todo.text}</span>
                             <button onClick={() => setTodos((prev) => prev.filter(t => t.id !== todo.id))}>Delete</button>
                         </li>

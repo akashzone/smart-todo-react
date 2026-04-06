@@ -23,6 +23,12 @@
 }
 
 
+li #checkbox {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
 .inputTodo input::placeholder {
   color: #aaa;
 }
