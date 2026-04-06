@@ -43,6 +43,16 @@ const TodoList = ({ toggle }) => {
         }
     }
 
+    const handleCheckBox = (id) => {
+  setTodos((prev) =>
+    prev.map((todo) =>
+      todo.id === id
+        ? { ...todo, completed: !todo.completed }
+        : todo
+    )
+  );
+};
+
     useEffect(() => {
         localStorage.setItem('todos', JSON.stringify(todos));
     }, [todos]);
@@ -62,8 +72,10 @@ const TodoList = ({ toggle }) => {
             <div>
                 <ul className="todoList">
                     {todos.map((todo) => (
+
                         <li style={{ backgroundColor: toggle ? "#ffffff" : "#2a2a2a", color: toggle ? "#000" : "#e0e0e0" }} key={todo.id}>
-                            <span style={{ color: toggle ? "#000" : "#e0e0e0" }}>{todo.text}</span>
+                            <input type="checkbox" checked={todo.completed} onChange={()=>{handleCheckBox(todo.id)}}/>
+                            <span style={{ textDecoration: todo.completed ? "line-through" : "none",color: toggle ? "#000" : "#e0e0e0" }}>{todo.text}</span>
                             <button onClick={() => setTodos((prev) => prev.filter(t => t.id !== todo.id))}>Delete</button>
                         </li>
                     ))}
